@@ -9,7 +9,7 @@
 
 .contacto .rectangulo 
 {
-    margin-top: -5rem;
+    margin-top: 5rem;
     background-color: #476956;
     border-radius: 10px;
     box-shadow:0px 1px 4px 1px  white;
@@ -41,9 +41,134 @@
 }
 
 .contacto button i 
-{ color: white;
+{
+     color: white;
     font-size: 1.3rem;
     transition: all 0.2 ease-in-out ;
 
 }
+.seccion-oscura
+ {
+    color: white;
+    background-color: #1b1b32;
+  }
 
+.footer
+  {
+    min-height: 500px;
+  }
+  
+  
+  
+  
+  .footer-texto {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+  }
+  
+  .iconos-redes-sociales i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+  }
+  
+
+  /* descripcion de productos*/
+
+  .about {
+    text-align:center;
+}
+
+.subtitle {
+    color: var(--color-title);
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+
+.about__paragraph {
+    line-height: 1.7;
+    font-family: 'Courgette', cursive;
+    font-size: 1rem;
+    
+}
+
+.about__main {
+    padding-top: 80px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+}
+
+
+.about__icons {
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    width: 260px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.about__icon {
+    width: 200px;
+}
+
+
+
+.about__main
+{
+  background-color: #476956;
+}
+
+.about__title
+{
+  color: white;
+}
+
+.about__paragraph2
+{
+  color: white;
+}
+
+.subtitle
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.descripcion
+{
+color: white;
+line-height: 1.7;
+}
+
+.container
+{
+  background-color: rgba(240, 251, 245, 0.87);
+  opacity: 0.8;
+  background-image:  radial-gradient(#31922f 0.9px, transparent 0.9px), radial-gradient(#31922f 0.9px, rgba(240, 251, 245, 0.87) 0.9px);
+  background-size: 36px 36px;
+  background-position: 0 0,18px 18px;
+  
+
+
+  
+}
