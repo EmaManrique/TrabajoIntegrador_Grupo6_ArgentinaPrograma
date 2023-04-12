@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es-es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingresar</title>
+    <style type="text/css">
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: #f4eea9;
+        }    
+        form {
+            text-align: center;
+        }
+            
+    </style>
+    
+</head>
+
+<Body>
+    <form id="formularioiniciar">
+        <h3>Iniciar sesión</h3>
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required placeholder="jlopez@...">
+        </div>
+    <br>
+    
+        <div>
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password" minlength="6" maxlength="12" required required placeholder="Contraseña"> 
+        </div>
+    <br>
+
+        <p>
+            <input type="submit" value="Enviar datos">
+        </p>
+    
+        </form>
+    
+    <hr> 
+    <hr>
+
+    <form id="formularionuevo">
+    <h3>Cree su usuario</h3>
+    <div>
+        <label for="nombre">Nombre: </label>
+        <input type="text" minlength="6" maxlength="30" name="nombre" placeholder="José"> 
+    </div>
+<br>
+    <div>
+        <label for="apellido">Apellido: </label>
+        <input type="text" minlength="6" maxlength="30" name="apellido" placeholder="López"> 
+    </div>
+<br>
+
+    <div>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required placeholder="jlopez@...">
+    </div>
+<br>
+
+    <div>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password" minlength="6" maxlength="12" required placeholder="Contraseña"> 
+    </div>
+<br>
+
+    <div>
+        <label for="date">Fecha de nacimiento: </label>
+        <input type="date" name="date" id="date" placeholder="fecha de nacimiento">
+    </div>    
+<br>
+
+    <div>
+    <h4> Dirección de envío</h4>
+    <label for="direccion">Dirección</label>
+    <input type="text" name="direccion" placeholder="Dirección">
+    </div>
+    <br>
+
+    <div>
+    <label for="localidad">Localidad</label>
+    <input type="text" name="localidad" placeholder="Localidad">
+    </div>
+    <br>
+
+    </div>
+    <label for="CP">CP</label>
+    <input type="number" minlength="4" maxlength="8" name="CP" placeholder="Código Postal">
+    </div>
+    <br>
+    <br>
+
+
+    <div>
+    <label for="provincia">Provincia</label>
+    <input type="text" minlength="6" maxlength="30" name="provincia" placeholder="Provincia">
+    </div>
+    <br>
+
+<div>
+    <label for="continente">Continente: </label>
+    <select name="continente" id="continente" required>
+        <optgroup>
+            <option value="África">África</option>
+            <option value="América">América</option>
+            <option value="Asia">Asia</option>
+            <option value="Europa">Europa</option>
+            <option value="Oceanía">Oceanía</option>
+        </optgroup>
+    </select>        
+</div>
+<br>
+
+    <div>
+        <input type="checkbox" name="aceptar"> Aceptar Terminos y Condiciones
+    </div>
+    <p>
+        <input type="submit" value="Enviar datos">
+    </p>
+
+    </form>
+</Body>
