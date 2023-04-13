@@ -3,9 +3,9 @@ TrabajoIntegrador_Grupo6_ArgentinaPrograma
 
 
 Integrantes, 
-CAMINOS, Daniela 
-CICCIO, Nadia
-MANRIQUE, Emanuel
-SENIA, Victoria
-VENTURA, Luciana
+CAMINOS Daniela,
+CICCIO Nadia,
+MANRIQUE Emanuel,
+SENIA Victoria,
+VENTURA Luciana.
 
