@@ -8,8 +8,9 @@
         let trasactionFormData= new FormData(form);
         let seleccionTabla= document.getElementById('tablaCotizar');
         let nuevafila= seleccionTabla.insertRow(-1);
-        nuevafila.insertCell(0)
+        nuevafila.insertCell(0);
         
-        nuevafila.insertCell(1)
+        nuevafila.insertCell(1);
     
+    }
     }
