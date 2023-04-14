@@ -1,5 +1,5 @@
 
-    const form= document.getElementById('formCotizacion'); {
+    const form= document.getElementById('formCotizacion'); 
 
   
         form.addEventListener("submit", function(event) { 
@@ -13,4 +13,4 @@
         nuevafila.insertCell(1);
     
     }
-    }
+    
