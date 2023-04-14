@@ -94,12 +94,68 @@
 
                 <article class="about__icons">
                     <img src="https://img.freepik.com/fotos-premium/jabon-artesanal-sobre-mesa-madera-blanca-barras-jabon-organico-natural-fondo-concepto-salud-belleza_434420-1285.jpg" class="about__icon">
-                    <h3 class="about__title">Jabones ecológicos</h3>
+                    <h3 class="about__title">Jabones Ecológicos</h3>
                     <p class="descripcion"> jabón cosmético de baño aromatizado con aceites esenciales de lavanda, canela y naranja.
                          .Idóneo para todo tipo de pieles, incluidas las delicadas y/o sensibles. </p>
                 </article>
+
+
+            <!--Form Cotizacion de productos-->    
             </div>
-        </section>
+        </section><div class="container-sm text-center" id="contenedor" >
+          <div class="row justify-content-md-center"> <h1 style="color:#476956" >Cotizá tu pedido acá</h1></div> 
+        
+        <form id="formCotizacion">
+          <label for="name">Selecciona aca tus Productos y agregalos al listado:</label>
+        
+            <select name="producto" class="form-select form-select-sm" id="producto">
+        
+                <option value="">Aceite de CBD al 40 % (Fuerte) </option> 
+                <option value="">Aceite de CBD al 20 % (Medio) <label for="" id="precio2" >$2000</label></option>
+                <option value="">Aceite de CBD al 10 % (Suave)</option>
+                <option value="">Crema para masajes con CBD</option>
+                <option value="">Óleo corporal con CBD</option>
+                <option value="">Jabón masajeador con CBD (Corporal)</option>
+                <option value="">Jabón masajeador con carboón activo y CBD (Facial)</option>
+                <option value="">Sales de baño con CBD</option>
+                <input type="submit" class="btn btn-primary" value="Agregar">
+            </select>
+            
+         
+        
+        <hr>
+        
+          <table class="table" id="tablaCotizar">
+            <thead>
+              <tr>
+                
+                <th scope="col">Producto</th>
+                <th scope="col">Precio</th>
+               
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                
+                <td></td>
+                <td></td>
+                
+              </tr>
+             
+              
+            </tbody>
+          </table>
+          <p>Resumen:</p>
+          <div id="listado"></div>
+        
+          <button type="submit">Exportar PDF</button>
+        </form>
+        
+        
+        
+        
+        </div>
+        
 
           
         

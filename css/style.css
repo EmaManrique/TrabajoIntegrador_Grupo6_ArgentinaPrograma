@@ -168,7 +168,13 @@ line-height: 1.7;
   background-size: 36px 36px;
   background-position: 0 0,18px 18px;
   
-
-
   
+}
+
+
+#formCotizacion{
+
+border-radius: 20px;
+border-style: double;
+border-color: #476956;
 }
